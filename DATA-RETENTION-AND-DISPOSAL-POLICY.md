@@ -1,10 +1,10 @@
-# Data Retention & Disposal Policy
+# Data Retention & Disposal Policy for Alkaline.Org Transaction Downloader
 
-**Policy Owner/Security Officer:** Garrett Jones
-**Version:** 1.0  
-**Last updated:** 2025-08-28
+- **Policy Owner/Security Officer:** Garrett Jones
+- **Version:** 1.0  
+- **Last updated:** 2025-08-28
 
-See [[README.md]] for a description of the tool.
+See [README.md](README.md) for a description of the tool.
 
 ## Definitions
 - **Owner**: The owner of the Google Colab workflow.

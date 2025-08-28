@@ -1,8 +1,8 @@
-# Access Control Policy
+# Access Control Policy for Alkaline.Org Transaction Downloader
 
-**Policy Owner/Security Officer:** Garrett Jones
-**Version:** 1.0  
-**Last updated:** 2025-08-28
+- **Policy Owner/Security Officer:** Garrett Jones
+- **Version:** 1.0  
+- **Last updated:** 2025-08-28
 
 ## Identity & Access Management
 - **Identity provider**: Single-user Google account.

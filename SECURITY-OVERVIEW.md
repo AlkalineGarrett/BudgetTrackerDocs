@@ -1,18 +1,18 @@
 # Security Overview for Alkaline.Org Transaction Downloader
 
-**Tool Owner/Developer**: Garrett Jones
-**Last updated**: 2025-08-28
+- **Tool Owner/Developer**: Garrett Jones
+- **Last updated**: 2025-08-28
 
 ## Definitions
 - **Owner**: The owner of the Google Colab workflow.
 - **User**: The owner of the source financial account and the target Google Sheet. Same person as the Owner but in a different role.
 
 ## Scope
-* See [[README.md]] for a description of the tool.
-* **Data sources**: Plaid (Transactions + Accounts/Balance).
-* **Target financial institutions**: Initially, Chase credit card accounts (via OAuth). Others to be added later.
-* **Data sharing**: There is no third-party data sharing.
-* **User**: The Owner/User running the workflow in Google Colab must have access to both the financial institution with the transactions and the Google account where the transactions will be saved.
+- See [README.md](README.md) for a description of the tool.
+- **Data sources**: Plaid (Transactions + Accounts/Balance).
+- **Target financial institutions**: Initially, Chase credit card accounts (via OAuth). Others to be added later.
+- **Data sharing**: There is no third-party data sharing.
+- **User**: The Owner/User running the workflow in Google Colab must have access to both the financial institution with the transactions and the Google account where the transactions will be saved.
    - The location of User's Output Google Sheet is saved in Owner's Google Colab.
 
 ## High‑level data flow (run by User)
@@ -27,7 +27,7 @@
 ## Risk minimization
 - **Data request scope**: Only Transactions (and Accounts/Balance) products are requested in `link_token` to minimize scope.
 - **Logging**: No sensitive data is logged (no tokens, no full payloads).
-- **Vulnerability management**: See [[VULNERABILITY-MANAGEMENT-POLICY.md]] for details.
+- **Vulnerability management**: See [Vulnerability Management Policy](VULNERABILITY-MANAGEMENT-POLICY.md) for details.
 - **Encryption**: Keys are **derived per session** from a User-provided passphrase and are not stored.
 - **Secrets**: `PLAID_CLIENT_ID` and `PLAID_SECRET` are stored in the Secrets configuration of Colab and are not present in the Colab code.
    - No tokens or secrets are commited to version control.

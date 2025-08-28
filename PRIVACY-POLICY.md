@@ -1,9 +1,9 @@
-# Privacy Policy (Single‑User Personal Budgeting Tool)
+# Privacy Policy for Alkaline.Org Transaction Downloader
 
-**Policy Owner/Security Officer:** Garrett Jones
-**Effective date:** 2025-08-28
+- **Policy Owner/Security Officer:** Garrett Jones
+- **Effective date:** 2025-08-28
 
-See [[README.md]] for a description of the tool.
+See [README.md](README.md) for a description of the tool.
 
 This tool is used solely by a single individual (“Owner”). There are **no end‑users or customers**.
 

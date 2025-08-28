@@ -1,11 +1,11 @@
 # Information Security Policy for Alkaline.Org Transaction Downloader
 
-**Policy Owner/Security Officer:** Garrett Jones
-**Version:** 1.0  
-**Last updated:** 2025-08-28
+- **Policy Owner/Security Officer:** Garrett Jones
+- **Version:** 1.0  
+- **Last updated:** 2025-08-28
 
 ## Policy Purpose
-Protect the confidentiality and integrity of financial data accessed via Plaid by the Alkaline.Org Transaction Downloader. See [[README.md]] for a description of the tool.
+Protect the confidentiality and integrity of financial data accessed via Plaid by the Alkaline.Org Transaction Downloader. See [README.md](README.md) for a description of the tool.
 
 ## Roles & responsibilities
 - **Policy Owner/Security Officer:** Implements and enforces this policy.
