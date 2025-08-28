@@ -11,6 +11,7 @@ This repository includes public documentation about the transaction downloader.
 - [Security Overview](SECURITY-OVERVIEW.md)
 - [Information Security Policy](INFORMATION-SECURITY-POLICY.md)
 - [Access Control Policy](ACCESS-CONTROL-POLICY.md)
+- [MFA Details](MFA-DETAILS.md)
 - [Data Retention and Disposal Policy](DATA-RETENTION-AND-DISPOSAL-POLICY.md)
 - [Vulnerability Management Policy](VULNERABILITY-MANAGEMENT-POLICY.md)
 - [Privacy Policy](PRIVACY-POLICY.md)
